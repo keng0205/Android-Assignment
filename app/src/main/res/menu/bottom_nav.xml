@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/all_contact"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_today"
+        android:title="All"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/today"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_all"
+        android:title="Today"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/tmr"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_tomoro"
+        android:title="Tomorrow"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/dayAfter"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_22moro"
+        android:title="Day After Tomorrow"
+        app:showAsAction="ifRoom"/>
+
+</menu>
